@@ -4,6 +4,9 @@ var plugins = [{
     },{
       plugin: require('/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-styled-components/gatsby-ssr.js'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-typography/gatsby-ssr.js'),
+      options: {"plugins":[]},
     }]
 "use strict";
 

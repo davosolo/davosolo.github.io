@@ -264,17 +264,65 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-typography",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4905a0fc27829632fade66b0f3698598",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/david/Sites/davosolo.github.io",
       "name": "default-site-plugin",
-      "version": "a13f3a8dca628487192ff15bd98b21d9",
+      "version": "ab0b0ed2efdba33ac9146c0b55a6969b",
       "pluginOptions": {
         "plugins": []
       },
       "pluginFilepath": "/Users/david/Sites/davosolo.github.io",
       "packageJson": {
         "name": "gatsby-starter-default",
-        "description": "Gatsby default starter",
+        "description": "David's Site",
         "version": "1.0.0",
         "main": "n/a",
         "keywords": [
@@ -298,6 +346,22 @@
           {
             "name": "gatsby-plugin-styled-components",
             "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.2"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          },
+          {
+            "name": "typography-theme-fairy-gates",
+            "version": "^0.15.11"
+          },
+          {
+            "name": "typography-theme-sutro",
+            "version": "^0.15.10"
           }
         ],
         "devDependencies": [
@@ -314,24 +378,24 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6089ba10bc046c57504081de678ac9a0",
+        "contentDigest": "cc260ec7ed176a4a25865e66efb3852d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter"
+        "title": "David's Site"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
-      "buildTime": "2017-08-05T03:54:10.786Z",
+      "buildTime": "2017-08-13T22:02:32.935Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d6784cc3466dcf121d524ecf8757458c",
+        "contentDigest": "c85a5fe290321d9942d99cdc722de7ab",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -370,6 +434,40 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /about/": {
+      "path": "/about/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/about.js",
+      "componentChunkName": "page-component---src-pages-about-js",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "54559440df7e0c4c12ff013225da0817",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "path": "/contact/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/contact.js",
+      "componentChunkName": "page-component---src-pages-contact-js",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f9bdc8ab85379b9be3b6230d1475a2ff",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /counter/": {
       "path": "/counter/",
       "component": "/Users/david/Sites/davosolo.github.io/src/pages/counter.js",
@@ -404,23 +502,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
-      "path": "/page-2/",
-      "component": "/Users/david/Sites/davosolo.github.io/src/pages/page-2.js",
-      "componentChunkName": "page-component---src-pages-page-2-js",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5e81959669ae80c7873b7e0f5c504c22",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404.html": {
       "path": "/404.html",
       "component": "/Users/david/Sites/davosolo.github.io/src/pages/404.js",
@@ -441,7 +522,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f0cde5777256d115a63c298d3b39a7d6"
+    "PLUGINS_HASH": "869db06bcdbd4f4a665d89d3759ffd42"
   },
   "pageDataDependencies": {
     "nodes": {},

@@ -1,7 +1,8 @@
 import React from "react"
 import styled from "styled-components"
-
-import Container from "../components/container"
+import Header from './../layouts/header'
+import Title from './../components/Container/styledTitle'
+import Container from './../components/Container/styledContainer'
 
 const UserWrapper = styled.div`
   display: flex;
@@ -13,7 +14,7 @@ const UserWrapper = styled.div`
 `
 
 const Avatar = styled.img`
-  flex: 0 0 96px;
+  flex: 0 0;
   width: 96px;
   height: 96px;
   margin: 0;
@@ -30,7 +31,9 @@ const Username = styled.h2`
   padding: 0;
 `
 
-const Excerpt = styled.p`margin: 0;`
+const Excerpt = styled.p`
+  margin: 0;
+`
 
 const User = props =>
   <UserWrapper>
@@ -45,18 +48,23 @@ const User = props =>
     </Description>
   </UserWrapper>
 
-export default () =>
-  <Container>
-    <h1>About Styled Components</h1>
-    <p>Styled Components is cool</p>
-    <User
-      username="Jane Doe"
-      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
-      excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    />
-    <User
-      username="Bob Smith"
-      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
-      excerpt="I'm Bob smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    />
-  </Container>
+const AboutCssModules = () =>
+  <div>
+    <Header/>
+    <Container>
+      <Title>About Styled Components</Title>
+      <p>Styled Components is cool</p>
+      <User
+        username="Jane Doe"
+        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+        excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      />
+      <User
+        username="Bob Smith"
+        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
+        excerpt="I'm Bob smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      />
+    </Container>
+  </div>
+
+  export default AboutCssModules

@@ -1,4 +1,7 @@
-var plugins = []
+var plugins = [{
+      plugin: require('/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
+      options: {"plugins":[]},
+    }]
 "use strict";
 
 // During bootstrap, we write requires at top of this file which looks

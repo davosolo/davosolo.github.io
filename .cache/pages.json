@@ -15,6 +15,16 @@
         "path": "/about-css-modules/"
     },
     {
+        "componentChunkName": "page-component---src-pages-about-js",
+        "jsonName": "about.json",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-contact-js",
+        "jsonName": "contact.json",
+        "path": "/contact/"
+    },
+    {
         "componentChunkName": "page-component---src-pages-counter-js",
         "jsonName": "counter.json",
         "path": "/counter/"
@@ -23,11 +33,6 @@
         "componentChunkName": "page-component---src-pages-index-js",
         "jsonName": "index.json",
         "path": "/"
-    },
-    {
-        "componentChunkName": "page-component---src-pages-page-2-js",
-        "jsonName": "page-2.json",
-        "path": "/page-2/"
     },
     {
         "componentChunkName": "page-component---src-pages-404-js",
