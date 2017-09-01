@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { HeaderBackground, HeaderContainer, Menu, MenuItem, Title, Logo } from './../components/Header/styledHeader'
+import { HeaderContainer, Menu, MenuItem, Title, Logo, Burger } from './../components/styledHeader'
 
 const ListLink = props => (
   <MenuItem>
@@ -11,21 +11,19 @@ const ListLink = props => (
 )
 
 const Header = () => (
-  <HeaderBackground>
-    <HeaderContainer>
-      <Title>
-        <Logo to="/">
-        DM
-        </Logo>
-      </Title>
-      <Menu>
-        <ListLink to="/about/">About</ListLink>
-        <ListLink to="/contact/">Resume</ListLink>
-        <ListLink to="/contact/">Skills</ListLink>
-        <ListLink to="/contact/">Contact</ListLink>
-      </Menu>
-    </HeaderContainer>
-  </HeaderBackground>
+  <HeaderContainer>
+    <Title>
+      <Logo to="/">
+        MD
+      </Logo>
+    </Title>
+    <Menu>
+      <ListLink to="/about/">About</ListLink>
+      <ListLink to="/contact/">Resume</ListLink>
+      <ListLink to="/contact/">Skills</ListLink>
+      <ListLink to="/contact/">Contact</ListLink>
+    </Menu>
+  </HeaderContainer>
 )
 
 export default Header

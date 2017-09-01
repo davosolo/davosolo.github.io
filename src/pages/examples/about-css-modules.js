@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
-import Header from './../layouts/header'
-import Title from './../components/Container/styledTitle'
-import Container from './../components/Container/styledContainer'
+import Header from './../../layouts/header'
+import Container from './../../layouts/aboutContainer'
+import Link from 'gatsby-link'
 
 const UserWrapper = styled.div`
   display: flex;
@@ -35,7 +35,7 @@ const Excerpt = styled.p`
   margin: 0;
 `
 
-const User = props =>
+const User = props => (
   <UserWrapper>
     <Avatar src={props.avatar} />
     <Description>
@@ -47,12 +47,12 @@ const User = props =>
       </Excerpt>
     </Description>
   </UserWrapper>
+)
 
-const AboutCssModules = () =>
+const AboutCssModules = () => (
   <div>
-    <Header/>
-    <Container>
-      <Title>About Styled Components</Title>
+    <Header />
+    <Container title="About Styled Components">
       <p>Styled Components is cool</p>
       <User
         username="Jane Doe"
@@ -64,7 +64,11 @@ const AboutCssModules = () =>
         avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
         excerpt="I'm Bob smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       />
+      <img src="http://lorempixel.com/400/200/" />
+      <br />
+      <Link to="./counter">Counter</Link>
     </Container>
   </div>
+)
 
-  export default AboutCssModules
+export default AboutCssModules

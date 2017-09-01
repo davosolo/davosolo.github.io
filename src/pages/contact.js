@@ -1,17 +1,14 @@
 import React from "react"
 import Header from './../layouts/header'
-import Title from './../components/Container/styledTitle'
-import Container from './../components/Container/styledContainer'
+import Container from './../layouts/aboutContainer'
 
-const Contact = () =>
+const ContactPage = () =>
   <div>
-    <Header/>
-    <Container>
-      <Title>I'd love to talk! Email me at the address below</Title>
-      <p>
+    <Container title="I'd love to talk!">
+      <p>Email me at the address below:<br/><br/>
         <a mailto="davidmzm@gmail.com">davidmzm@gmail.com</a>
       </p>
     </Container>
   </div>
 
-  export default Contact
+  export default ContactPage

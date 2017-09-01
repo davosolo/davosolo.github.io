@@ -1,36 +1,23 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Cover from './../layouts/cover'
 import Header from './../layouts/header'
-import Title from './../components/Container/styledTitle'
-import Container from './../components/Container/styledContainer'
 import AboutPage from './about'
+import ContactPage from './contact'
+import BannerLayout from './../layouts/banner'
 
-const IndexPage = () =>
-  <div>
-    <Cover/>
+const IndexPage = () => (
+  <main>
+    <Cover 
+      title = "FRONT-END DEVELOPER" 
+      subtitle = "Muñoz, David" 
+      text = "Hey... Welcome! In here, you can take a glance of everything that has to do with me and my work so you can have a better idea of what I'm able to do. Or in other words: a showing off."
+    />
     <Header/>
     <AboutPage/>
-    <Container>
-      <Title>The Great Gatsby</Title>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <img src="http://lorempixel.com/400/200/"/>
-
-      <br/>
-      <Link to="/counter/">Counter</Link>
-      <br/>
-      <Link to="/about-css-modules/">Container</Link>
-      <br/>
-      <Link to="/counter/">Counter</Link>
-      <br/>
-      <Link to="/about-css-modules/">Container</Link>
-      <br/>
-      <Link to="/counter/">Counter</Link>
-      <br/>
-      <Link to="/about-css-modules/">Container</Link>
-    </Container>
-  </div>
-
+    <BannerLayout 
+      title = "Resume"
+    />
+  </main>
+)
 
 export default IndexPage

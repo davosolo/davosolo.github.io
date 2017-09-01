@@ -315,14 +315,14 @@
     "Plugin default-site-plugin": {
       "resolve": "/Users/david/Sites/davosolo.github.io",
       "name": "default-site-plugin",
-      "version": "ab0b0ed2efdba33ac9146c0b55a6969b",
+      "version": "fc0e673222065fd44158d7ff70a2bc9c",
       "pluginOptions": {
         "plugins": []
       },
       "pluginFilepath": "/Users/david/Sites/davosolo.github.io",
       "packageJson": {
         "name": "gatsby-starter-default",
-        "description": "David's Site",
+        "description": "David Muñoz",
         "version": "1.0.0",
         "main": "n/a",
         "keywords": [
@@ -378,24 +378,24 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cc260ec7ed176a4a25865e66efb3852d",
+        "contentDigest": "62609991710ae58c79edb37f8f2879f1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "David's Site"
+        "title": "David Muñoz"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
-      "buildTime": "2017-08-13T22:02:32.935Z",
+      "buildTime": "2017-08-26T16:42:01.519Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c85a5fe290321d9942d99cdc722de7ab",
+        "contentDigest": "55723820a9577261d584ea4f60815121",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -414,23 +414,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "c2daadd0903ee0585de9a9980b38ae8f",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about-css-modules/": {
-      "path": "/about-css-modules/",
-      "component": "/Users/david/Sites/davosolo.github.io/src/pages/about-css-modules.js",
-      "componentChunkName": "page-component---src-pages-about-css-modules-js",
-      "jsonName": "about-css-modules.json",
-      "internalComponentName": "ComponentAboutCssModules",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "id": "SitePage /about-css-modules/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f9a54d794b0b24c4364cf0b22f1a8821",
         "owner": "internal-data-bridge"
       }
     },
@@ -468,23 +451,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /counter/": {
-      "path": "/counter/",
-      "component": "/Users/david/Sites/davosolo.github.io/src/pages/counter.js",
-      "componentChunkName": "page-component---src-pages-counter-js",
-      "jsonName": "counter.json",
-      "internalComponentName": "ComponentCounter",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "id": "SitePage /counter/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "520a6ac8d2f182da9e77fbb4e10c6791",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /": {
       "path": "/",
       "component": "/Users/david/Sites/davosolo.github.io/src/pages/index.js",
@@ -518,11 +484,45 @@
         "contentDigest": "4191b65b903aaea2b4ef03eb540748a2",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /examples/about-css-modules/": {
+      "path": "/examples/about-css-modules/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/examples/about-css-modules.js",
+      "componentChunkName": "page-component---src-pages-examples-about-css-modules-js",
+      "jsonName": "examples-about-css-modules.json",
+      "internalComponentName": "ComponentExamplesAboutCssModules",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /examples/about-css-modules/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aefd28fd848f4aea680eee4db8ac44d0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /examples/counter/": {
+      "path": "/examples/counter/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/examples/counter.js",
+      "componentChunkName": "page-component---src-pages-examples-counter-js",
+      "jsonName": "examples-counter.json",
+      "internalComponentName": "ComponentExamplesCounter",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /examples/counter/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6b1bff80e6f5f916979de1e111506a9f",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "869db06bcdbd4f4a665d89d3759ffd42"
+    "PLUGINS_HASH": "ec735e6b023ed4ab7fcb788e241783a5"
   },
   "pageDataDependencies": {
     "nodes": {},

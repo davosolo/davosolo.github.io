@@ -5,18 +5,19 @@ import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
 import Llamas from './../themes/llamas'
 
-const TemplateWrapper = ({children}) => 
+const TemplateWrapper = ({children}) => (
     <ThemeProvider theme={Llamas}>
       <div>
         <Helmet
-          title="David's Site"
+          title="David Muñoz"
           meta={[
             { name: 'description', content: 'David Muñoz Web Site' },
-            { name: 'keywords', content: 'davosolo, davidmzm, frontend' },
+            { name: 'keywords', content: 'davosolo, davidmzm, frontend, web developer' },
           ]}
         />
           {children()}
       </div>
     </ThemeProvider>
+)
 
 export default TemplateWrapper

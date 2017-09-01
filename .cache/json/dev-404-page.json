@@ -10,11 +10,6 @@
                 },
                 {
                     "node": {
-                        "path": "/about-css-modules/"
-                    }
-                },
-                {
-                    "node": {
                         "path": "/about/"
                     }
                 },
@@ -25,17 +20,22 @@
                 },
                 {
                     "node": {
-                        "path": "/counter/"
-                    }
-                },
-                {
-                    "node": {
                         "path": "/"
                     }
                 },
                 {
                     "node": {
                         "path": "/404.html"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/examples/about-css-modules/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/examples/counter/"
                     }
                 }
             ]
