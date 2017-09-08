@@ -30,6 +30,11 @@
         "path": "/resume/"
     },
     {
+        "componentChunkName": "page-component---src-pages-skills-js",
+        "jsonName": "skills.json",
+        "path": "/skills/"
+    },
+    {
         "componentChunkName": "page-component---src-pages-404-js",
         "jsonName": "404-html.json",
         "path": "/404.html"
@@ -43,10 +48,5 @@
         "componentChunkName": "page-component---src-pages-examples-counter-js",
         "jsonName": "examples-counter.json",
         "path": "/examples/counter/"
-    },
-    {
-        "componentChunkName": "page-component---src-pages-skills-js",
-        "jsonName": "skills.json",
-        "path": "/skills/"
     }
 ]

@@ -390,12 +390,12 @@
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
-      "buildTime": "2017-09-05T01:34:21.613Z",
+      "buildTime": "2017-09-08T15:54:17.846Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4e2176a5f2837ba04e8b40aff0839289",
+        "contentDigest": "70f9c29e820906beefe9ee9580d7f546",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -485,6 +485,23 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /skills/": {
+      "path": "/skills/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/skills.js",
+      "componentChunkName": "page-component---src-pages-skills-js",
+      "jsonName": "skills.json",
+      "internalComponentName": "ComponentSkills",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /skills/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e91d08cd3e3b2d19862aaa5822dc15a4",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404.html": {
       "path": "/404.html",
       "component": "/Users/david/Sites/davosolo.github.io/src/pages/404.js",
@@ -533,23 +550,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "6b1bff80e6f5f916979de1e111506a9f",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /skills/": {
-      "path": "/skills/",
-      "component": "/Users/david/Sites/davosolo.github.io/src/pages/skills.js",
-      "componentChunkName": "page-component---src-pages-skills-js",
-      "jsonName": "skills.json",
-      "internalComponentName": "ComponentSkills",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "id": "SitePage /skills/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e91d08cd3e3b2d19862aaa5822dc15a4",
         "owner": "internal-data-bridge"
       }
     }

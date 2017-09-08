@@ -30,6 +30,11 @@
                 },
                 {
                     "node": {
+                        "path": "/skills/"
+                    }
+                },
+                {
+                    "node": {
                         "path": "/404.html"
                     }
                 },
@@ -41,11 +46,6 @@
                 {
                     "node": {
                         "path": "/examples/counter/"
-                    }
-                },
-                {
-                    "node": {
-                        "path": "/skills/"
                     }
                 }
             ]
