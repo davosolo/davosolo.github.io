@@ -1,17 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
-import image from './../themes/nyc.jpg'
 
 const Banner = styled.header`
     /** Flexbox container */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     /** Mobile first */
     padding-right: 0rem;
-    height: 300px;
+    height: ${props => props.height};
     width: 100%;
 
     /** Desktop */
@@ -20,10 +19,10 @@ const Banner = styled.header`
     }
 
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(${props => image}) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(${props => props.backgroundImage}), black no-repeat;
     background-position: center;
     background-size: cover;
-    /*background-attachment: fixed; */
+    background-attachment: ${props => props.attachment};
     color: ${props => props.theme.light};
 `
 export default Banner

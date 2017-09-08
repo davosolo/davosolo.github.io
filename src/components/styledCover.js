@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
 import image from './../themes/coding.gif'
 import scroll from './../themes/arrowDown.png'
@@ -25,7 +24,7 @@ const CoverBackground = styled.header`
     background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url(${props => image}) no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     color: ${props => props.theme.light};
 `
 

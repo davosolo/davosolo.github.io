@@ -1,16 +1,15 @@
 import React from "react"
-import { Title, Subtitle, Container, PersonalData, AboutContainer, ProfilePicture, LabelColumn, DataColumn, Info, TitleSeparator, RowSeparator } from './../components/styledContainer'
+import { Title, Subtitle, TextContainer, PersonalData, Container, ProfilePicture, LabelColumn, DataColumn, Info, TitleSeparator, RowSeparator } from './../components/styledContainer'
 
 const ContainerLayout = props => (
     <section>
         <Title>
             {props.title}
         </Title>
-        <TitleSeparator />
-        <AboutContainer>
-            <Container>
+        <Container>
+            <TextContainer>
                 {props.children}
-            </Container>
+            </TextContainer>
             <PersonalData>
                 <ProfilePicture />
                 <Info>
@@ -38,7 +37,7 @@ const ContainerLayout = props => (
                     </DataColumn>
                 </Info>
             </PersonalData>
-        </AboutContainer>
+        </Container>
     </section>
 )
 

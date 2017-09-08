@@ -2,8 +2,9 @@ import React from 'react'
 import Cover from './../layouts/cover'
 import Header from './../layouts/header'
 import AboutPage from './about'
-import ContactPage from './contact'
-import BannerLayout from './../layouts/banner'
+import Contact from './contact'
+import Resume from './resume'
+import Skills from './skills'
 
 const IndexPage = () => (
   <main>
@@ -12,11 +13,11 @@ const IndexPage = () => (
       subtitle = "Muñoz, David" 
       text = "Hey... Welcome! In here, you can take a glance of everything that has to do with me and my work so you can have a better idea of what I'm able to do. Or in other words: a showing off."
     />
-    <Header/>
-    <AboutPage/>
-    <BannerLayout 
-      title = "Resume"
-    />
+    <Header />
+    <AboutPage />
+    <Resume />
+    <Skills />
+    <Contact />
   </main>
 )
 

@@ -19,8 +19,8 @@ const Header = () => (
     </Title>
     <Menu>
       <ListLink to="/about/">About</ListLink>
-      <ListLink to="/contact/">Resume</ListLink>
-      <ListLink to="/contact/">Skills</ListLink>
+      <ListLink to="/resume/">Resume</ListLink>
+      <ListLink to="/skills/">Skills</ListLink>
       <ListLink to="/contact/">Contact</ListLink>
     </Menu>
   </HeaderContainer>

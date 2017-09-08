@@ -1,7 +1,7 @@
 {
     "data": {
         "allSitePage": {
-            "totalCount": 7,
+            "totalCount": 9,
             "edges": [
                 {
                     "node": {
@@ -25,6 +25,11 @@
                 },
                 {
                     "node": {
+                        "path": "/resume/"
+                    }
+                },
+                {
+                    "node": {
                         "path": "/404.html"
                     }
                 },
@@ -36,6 +41,11 @@
                 {
                     "node": {
                         "path": "/examples/counter/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/skills/"
                     }
                 }
             ]

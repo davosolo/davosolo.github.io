@@ -11,6 +11,15 @@ const Title = styled.h1`
     text-shadow: 5px 5px 0px ${props => props.theme.light};
 `
 
+const TitleLight = styled.h1`
+    color: ${props => props.theme.light};
+    font-family: ${props => props.theme.font};
+    font-size: 3rem;
+    margin: 3rem auto 1rem auto;
+    text-align: center;
+    text-shadow: 5px 5px 0px ${props => props.theme.dark};
+`
+
 const TitleElegant = styled.h1`
     color: ${props => props.theme.dark};
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -51,20 +60,33 @@ const TitleInset = styled.h1`
     text-shadow: -2px -2px 0px ${props => props.theme.dark};, 2px 2px 2px ${props => props.theme.dark};
 `
 
-
 const Subtitle = styled.h1`
     color: ${props => props.theme.dark};
     font-family: ${props => props.theme.font};
     font-size: 1.5rem;
 `
 
-const Container = styled.div`
+const StyledLink = styled.a`
+    color: ${props => props.theme.secondary};
+    text-decoration: none;
+`
+    
+const StyledButton = styled.a`
+    text-decoration: none;
+    background: ${props => props.theme.secondary};
+    color: ${props => props.theme.light};
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: ${props => props.theme.light} 5px 5px 0px 0px;
+`
+    
+const TextContainer = styled.div`
     max-width: 600px;
     padding-left: 1rem;
     line-height: 2rem;
 `
 
-const AboutContainer = styled.div`
+const Container = styled.div`
     /** Flexbox container */
     display: flex;
     align-items: center;
@@ -72,6 +94,7 @@ const AboutContainer = styled.div`
     /** Mobile first */
     flex-direction: column;
     width: 90%;
+    margin-bottom: 3rem;
     
     /** Desktop */
     @media only screen and (min-width: 768px) {
@@ -82,6 +105,27 @@ const AboutContainer = styled.div`
 
     font-family: ${props => props.theme.font};
     font-size: 1.1rem;
+`
+
+const StrongContainer = styled.div`
+    /** Flexbox container */
+    display: flex;
+    align-items: center;
+
+    /** Mobile first */
+    flex-direction: column;
+    width: 90%;
+    
+    /** Desktop */
+    @media only screen and (min-width: 768px) {
+        flex-direction: column;
+        margin: 5rem auto;
+        justify-content: space-between;
+    }
+
+    font-family: ${props => props.theme.font};
+    font-size: 2rem;
+    text-align: center;
 `
     
 const PersonalData = styled.div`
@@ -177,4 +221,38 @@ const RowSeparator = styled.div`
     border-bottom: 1px solid ${props => props.theme.middle};
 `
 
-export { Container, Title, Subtitle, PersonalData, AboutContainer, ProfilePicture, LabelColumn, DataColumn, Info, TitleSeparator, RowSeparator, TitleInset, TitleRetro, TitleDeep }
+const CloudRow = styled.div`
+    /** Mobile first */
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    
+    /** Desktop */
+    @media only screen and (min-width: 768px) {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+`
+
+const CloudItem = styled.div`
+    /** Mobile first */
+    color: ${props => props.theme.light};
+    font-family: ${props => props.theme.font};
+    margin: 5px 0;
+
+    /** Desktop */
+    @media only screen and (min-width: 768px) {
+        border: 1px dotted ${props => props.theme.dark};
+        background: ${props => props.theme.light};
+        opacity: 0.5;
+        padding: 20px 10px;
+        border-radius: 5px;
+        margin: 5px 10px;
+        color: ${props => props.theme.dark};
+    }
+`
+
+export { CloudRow, CloudItem, TextContainer, Title, TitleLight, Subtitle, PersonalData, Container, ProfilePicture, LabelColumn, DataColumn, Info, TitleSeparator, RowSeparator, TitleInset, TitleRetro, TitleDeep, StrongContainer, StyledLink, StyledButton }

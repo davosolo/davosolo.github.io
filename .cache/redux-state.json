@@ -315,7 +315,7 @@
     "Plugin default-site-plugin": {
       "resolve": "/Users/david/Sites/davosolo.github.io",
       "name": "default-site-plugin",
-      "version": "fc0e673222065fd44158d7ff70a2bc9c",
+      "version": "9731762d7bf2dc7d3fd8d61227c77182",
       "pluginOptions": {
         "plugins": []
       },
@@ -378,7 +378,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "62609991710ae58c79edb37f8f2879f1",
+        "contentDigest": "3a7449832f3bcb67330879e31eddd6d9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -390,12 +390,12 @@
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
-      "buildTime": "2017-08-26T16:42:01.519Z",
+      "buildTime": "2017-09-05T01:34:21.613Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "55723820a9577261d584ea4f60815121",
+        "contentDigest": "4e2176a5f2837ba04e8b40aff0839289",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -468,6 +468,23 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /resume/": {
+      "path": "/resume/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/resume.js",
+      "componentChunkName": "page-component---src-pages-resume-js",
+      "jsonName": "resume.json",
+      "internalComponentName": "ComponentResume",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /resume/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "993759abffaa9b4d86b1446d97a46180",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404.html": {
       "path": "/404.html",
       "component": "/Users/david/Sites/davosolo.github.io/src/pages/404.js",
@@ -518,11 +535,28 @@
         "contentDigest": "6b1bff80e6f5f916979de1e111506a9f",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /skills/": {
+      "path": "/skills/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/skills.js",
+      "componentChunkName": "page-component---src-pages-skills-js",
+      "jsonName": "skills.json",
+      "internalComponentName": "ComponentSkills",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /skills/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e91d08cd3e3b2d19862aaa5822dc15a4",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ec735e6b023ed4ab7fcb788e241783a5"
+    "PLUGINS_HASH": "3eeed28462003a014b4c291b1c01df45"
   },
   "pageDataDependencies": {
     "nodes": {},

@@ -8,8 +8,10 @@ exports.components = {
   "page-component---src-pages-about-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/about.js")),
   "page-component---src-pages-contact-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/contact.js")),
   "page-component---src-pages-index-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/index.js")),
+  "page-component---src-pages-resume-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/resume.js")),
   "page-component---src-pages-examples-about-css-modules-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/examples/about-css-modules.js")),
-  "page-component---src-pages-examples-counter-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/examples/counter.js"))
+  "page-component---src-pages-examples-counter-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/examples/counter.js")),
+  "page-component---src-pages-skills-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/skills.js"))
 }
 
 exports.json = {
@@ -18,9 +20,11 @@ exports.json = {
   "about.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/about.json"),
   "contact.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/contact.json"),
   "index.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/index.json"),
+  "resume.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/resume.json"),
   "404-html.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/404-html.json"),
   "examples-about-css-modules.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/examples-about-css-modules.json"),
-  "examples-counter.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/examples-counter.json")
+  "examples-counter.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/examples-counter.json"),
+  "skills.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/skills.json")
 }
 
 exports.layouts = {

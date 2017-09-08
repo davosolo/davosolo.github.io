@@ -1,14 +1,22 @@
 import React from "react"
-import Header from './../layouts/header'
-import Container from './../layouts/aboutContainer'
+import Container from './../layouts/container'
+import BannerLayout from './../layouts/banner'
+import { StrongContainer, TextContainer, StyledLink } from './../components/styledContainer'
 
 const ContactPage = () =>
-  <div>
-    <Container title="I'd love to talk!">
-      <p>Email me at the address below:<br/><br/>
-        <a mailto="davidmzm@gmail.com">davidmzm@gmail.com</a>
-      </p>
-    </Container>
-  </div>
+  <BannerLayout 
+  title = "CONTACT" 
+  backgroundImage = { null }
+  attachment = "scroll"
+  height = "410px"
+  >
+  <StrongContainer>
+      <TextContainer>
+          <p style={{alignText: "center"}}>Talk to me here:&nbsp;
+            <StyledLink href="mailto:davidmzm@gmail.com">davidmzm@gmail.com</StyledLink>
+          </p>
+      </TextContainer>
+  </StrongContainer>
+  </BannerLayout>
 
   export default ContactPage
