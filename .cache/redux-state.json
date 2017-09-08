@@ -1,0 +1,569 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "component": "/Users/david/Sites/davosolo.github.io/.cache/dev-404-page.js",
+      "path": "/dev-404-page/",
+      "componentChunkName": "page-component---cache-dev-404-page-js",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "522f66a7609826515567658d30162e2f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin component-page-creator",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b465659452b8a19700d4a73c68d1bec0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin internal-data-bridge",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1cfa87c7ca76838c7b6369b4d29c0128",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin dev-404-page",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dd21588c18253537e3761d10bd2abb34",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin prod-404",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "08aac2c2855c952a38b5e034ffdf20ec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin query-runner",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "363654bf4ef026fe94aeb575942ed498",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4af8a9403388f656d26eca8d570b1687",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "styled-components",
+            "version": "^2.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-styled-components",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4b85743b0286e1979df4d42c912e3e28",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-typography",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4905a0fc27829632fade66b0f3698598",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/david/Sites/davosolo.github.io",
+      "name": "default-site-plugin",
+      "version": "9731762d7bf2dc7d3fd8d61227c77182",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/david/Sites/davosolo.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "David Muñoz",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.2"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          },
+          {
+            "name": "typography-theme-fairy-gates",
+            "version": "^0.15.11"
+          },
+          {
+            "name": "typography-theme-sutro",
+            "version": "^0.15.10"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.5.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin default-site-plugin",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3a7449832f3bcb67330879e31eddd6d9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "David Muñoz"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "buildTime": "2017-09-08T15:54:17.846Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "70f9c29e820906beefe9ee9580d7f546",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "path": "/404/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/404.js",
+      "componentChunkName": "page-component---src-pages-404-js",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c2daadd0903ee0585de9a9980b38ae8f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "path": "/about/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/about.js",
+      "componentChunkName": "page-component---src-pages-about-js",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "54559440df7e0c4c12ff013225da0817",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "path": "/contact/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/contact.js",
+      "componentChunkName": "page-component---src-pages-contact-js",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f9bdc8ab85379b9be3b6230d1475a2ff",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "path": "/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/index.js",
+      "componentChunkName": "page-component---src-pages-index-js",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e6408da9c4da0a725252b76170ec625c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /resume/": {
+      "path": "/resume/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/resume.js",
+      "componentChunkName": "page-component---src-pages-resume-js",
+      "jsonName": "resume.json",
+      "internalComponentName": "ComponentResume",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /resume/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "993759abffaa9b4d86b1446d97a46180",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /skills/": {
+      "path": "/skills/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/skills.js",
+      "componentChunkName": "page-component---src-pages-skills-js",
+      "jsonName": "skills.json",
+      "internalComponentName": "ComponentSkills",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /skills/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e91d08cd3e3b2d19862aaa5822dc15a4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "path": "/404.html",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/404.js",
+      "componentChunkName": "page-component---src-pages-404-js",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4191b65b903aaea2b4ef03eb540748a2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /examples/about-css-modules/": {
+      "path": "/examples/about-css-modules/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/examples/about-css-modules.js",
+      "componentChunkName": "page-component---src-pages-examples-about-css-modules-js",
+      "jsonName": "examples-about-css-modules.json",
+      "internalComponentName": "ComponentExamplesAboutCssModules",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /examples/about-css-modules/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aefd28fd848f4aea680eee4db8ac44d0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /examples/counter/": {
+      "path": "/examples/counter/",
+      "component": "/Users/david/Sites/davosolo.github.io/src/pages/examples/counter.js",
+      "componentChunkName": "page-component---src-pages-examples-counter-js",
+      "jsonName": "examples-counter.json",
+      "internalComponentName": "ComponentExamplesCounter",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "id": "SitePage /examples/counter/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6b1bff80e6f5f916979de1e111506a9f",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "3eeed28462003a014b4c291b1c01df45"
+  },
+  "pageDataDependencies": {
+    "nodes": {},
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

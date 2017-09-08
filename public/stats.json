@@ -1,0 +1,84 @@
+{
+  "assetsByChunkName": {
+    "path---examples-counter": [
+      "path---examples-counter-a0e39f21c11f6a62c5ab.js",
+      "path---examples-counter-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "page-component---src-pages-resume-js": [
+      "page-component---src-pages-resume-js-57daa9164c5318299eb2.js",
+      "page-component---src-pages-resume-js-57daa9164c5318299eb2.js.map"
+    ],
+    "page-component---src-pages-index-js": [
+      "page-component---src-pages-index-js-25f895473316a839f1ef.js",
+      "page-component---src-pages-index-js-25f895473316a839f1ef.js.map"
+    ],
+    "page-component---src-pages-404-js": [
+      "page-component---src-pages-404-js-f68e3df0986f36c07464.js",
+      "page-component---src-pages-404-js-f68e3df0986f36c07464.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---skills": [
+      "path---skills-a0e39f21c11f6a62c5ab.js",
+      "path---skills-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "commons": [
+      "commons-94f516d88d4fbe807146.js",
+      "commons-94f516d88d4fbe807146.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "page-component---src-pages-skills-js": [
+      "page-component---src-pages-skills-js-04d0499a12bdd5c9ec1d.js",
+      "page-component---src-pages-skills-js-04d0499a12bdd5c9ec1d.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "page-component---src-pages-examples-counter-js": [
+      "page-component---src-pages-examples-counter-js-ab47c084eb0424f22c25.js",
+      "page-component---src-pages-examples-counter-js-ab47c084eb0424f22c25.js.map"
+    ],
+    "page-component---src-pages-examples-about-css-modules-js": [
+      "page-component---src-pages-examples-about-css-modules-js-963484af609f62cfb839.js",
+      "page-component---src-pages-examples-about-css-modules-js-963484af609f62cfb839.js.map"
+    ],
+    "path---resume": [
+      "path---resume-a0e39f21c11f6a62c5ab.js",
+      "path---resume-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---examples-about-css-modules": [
+      "path---examples-about-css-modules-a0e39f21c11f6a62c5ab.js",
+      "path---examples-about-css-modules-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-8e77bb43a61fe9c3e867.js",
+      "app-8e77bb43a61fe9c3e867.js.map"
+    ],
+    "page-component---src-pages-about-js": [
+      "page-component---src-pages-about-js-0659e1e217522de8234c.js",
+      "page-component---src-pages-about-js-0659e1e217522de8234c.js.map"
+    ],
+    "page-component---src-pages-contact-js": [
+      "page-component---src-pages-contact-js-d16da0c726e8af7216a2.js",
+      "page-component---src-pages-contact-js-d16da0c726e8af7216a2.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "layout-component---index": [
+      "layout-component---index-8b47ee4f4b53c21e54b0.js",
+      "layout-component---index-8b47ee4f4b53c21e54b0.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

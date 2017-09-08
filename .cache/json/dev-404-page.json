@@ -1,0 +1,55 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 9,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/404/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/about/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/contact/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/resume/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/skills/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404.html"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/examples/about-css-modules/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/examples/counter/"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}
