@@ -1,19 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/Users/david/Sites/davosolo.github.io/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
-      "componentChunkName": "page-component---cache-dev-404-page-js",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "522f66a7609826515567658d30162e2f",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -315,7 +309,7 @@
     "Plugin default-site-plugin": {
       "resolve": "/Users/david/Sites/davosolo.github.io",
       "name": "default-site-plugin",
-      "version": "9731762d7bf2dc7d3fd8d61227c77182",
+      "version": "bddd160f452d06ae1216b5c6f46faada",
       "pluginOptions": {
         "plugins": []
       },
@@ -378,7 +372,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3a7449832f3bcb67330879e31eddd6d9",
+        "contentDigest": "5a800444abc9c8d5ebac8691e7bb9509",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -387,15 +381,13 @@
       "siteMetadata": {
         "title": "David Muñoz"
       },
-      "port": "8000",
-      "host": "localhost",
-      "pathPrefix": "",
-      "buildTime": "2017-09-08T15:54:17.846Z",
+      "pathPrefix": "/davosolo.github.io",
+      "buildTime": "2017-09-10T21:31:06.936Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "70f9c29e820906beefe9ee9580d7f546",
+        "contentDigest": "486d371c00dbabae93dc0af07447db2b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -556,14 +548,10 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "3eeed28462003a014b4c291b1c01df45"
+    "PLUGINS_HASH": "a2899890a31e6ec8a27ab74b9e708590"
   },
   "pageDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }
