@@ -360,6 +360,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^1.0.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.5.2"
           }
@@ -382,12 +386,12 @@
         "title": "David Muñoz"
       },
       "pathPrefix": "/davosolo.github.io",
-      "buildTime": "2017-09-10T21:31:06.936Z",
+      "buildTime": "2017-09-10T22:16:36.818Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "486d371c00dbabae93dc0af07447db2b",
+        "contentDigest": "7bf68c9075720d453caec4e9c147b192",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -548,7 +552,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a2899890a31e6ec8a27ab74b9e708590"
+    "PLUGINS_HASH": "f62e942b1641ecf5a72b7f48a10ab946"
   },
   "pageDataDependencies": {
     "nodes": {},
