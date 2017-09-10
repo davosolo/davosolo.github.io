@@ -8,5 +8,5 @@ module.exports = {
       pathToConfigModule: 'src/utils/typography'
     }
   ],
-  pathPrefix: `/davosolo.github.io`
+  pathPrefix: `/davosolo.github.io`,
 }
