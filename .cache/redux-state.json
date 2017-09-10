@@ -386,12 +386,12 @@
         "title": "David Muñoz"
       },
       "pathPrefix": "/davosolo.github.io",
-      "buildTime": "2017-09-10T22:36:27.358Z",
+      "buildTime": "2017-09-10T22:52:43.259Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cf15ff5271e0550830009da1e1855d6a",
+        "contentDigest": "afd668495376692ab6080ae305e0cd3c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
