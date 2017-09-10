@@ -309,7 +309,7 @@
     "Plugin default-site-plugin": {
       "resolve": "/Users/david/Sites/davosolo.github.io",
       "name": "default-site-plugin",
-      "version": "bddd160f452d06ae1216b5c6f46faada",
+      "version": "957c3696e821d0cc60b0499879c50527",
       "pluginOptions": {
         "plugins": []
       },
@@ -360,6 +360,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^1.0.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.5.2"
           }
@@ -372,7 +376,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5a800444abc9c8d5ebac8691e7bb9509",
+        "contentDigest": "1f79d676d5498754f33ddb913a3bb73d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -382,12 +386,12 @@
         "title": "David Muñoz"
       },
       "pathPrefix": "/davosolo.github.io",
-      "buildTime": "2017-09-10T21:31:06.936Z",
+      "buildTime": "2017-09-10T22:36:27.358Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "486d371c00dbabae93dc0af07447db2b",
+        "contentDigest": "cf15ff5271e0550830009da1e1855d6a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -548,7 +552,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a2899890a31e6ec8a27ab74b9e708590"
+    "PLUGINS_HASH": "40140dd2bb41e84d499def36cd60b24b"
   },
   "pageDataDependencies": {
     "nodes": {},
