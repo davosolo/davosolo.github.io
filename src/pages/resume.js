@@ -19,7 +19,7 @@ const ResumePage = () => (
             <br/>
             <br/>
             <br/>
-            <StyledButton target="_blank" href={path.resolve(__PATH_PREFIX__ + 'static/DavidMunoz_Resume.pdf')}>Download</StyledButton>
+            <StyledButton target="_blank" href={path.resolve(__PATH_PREFIX__ + '/static/DavidMunoz_Resume.pdf')}>Download</StyledButton>
         </TextContainer>
     </StrongContainer>
     </section>
