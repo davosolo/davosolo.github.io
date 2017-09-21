@@ -3,6 +3,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
+  "page-component---cache-dev-404-page-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/.cache/dev-404-page.js")),
   "page-component---src-pages-404-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/404.js")),
   "page-component---src-pages-about-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/about.js")),
   "page-component---src-pages-contact-js": preferDefault(require("/Users/david/Sites/davosolo.github.io/src/pages/contact.js")),
@@ -14,6 +15,7 @@ exports.components = {
 }
 
 exports.json = {
+  "dev-404-page.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/404.json"),
   "about.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/about.json"),
   "contact.json": require("/Users/david/Sites/davosolo.github.io/.cache/json/contact.json"),

@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import CV from './../themes/CV.jpg'
+import linkedin from './../themes/linkedin.png'
+import github from './../themes/github.png'
+import email from './../themes/envelope.png'
 
 const Title = styled.h1`
     color: ${props => props.theme.dark};
@@ -255,4 +258,30 @@ const CloudItem = styled.div`
     }
 `
 
-export { CloudRow, CloudItem, TextContainer, Title, TitleLight, Subtitle, PersonalData, Container, ProfilePicture, LabelColumn, DataColumn, Info, TitleSeparator, RowSeparator, TitleInset, TitleRetro, TitleDeep, StrongContainer, StyledLink, StyledButton }
+const IconsContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+`
+
+const LinkedinIcon = styled.div`
+    min-height: 64px;
+    min-width: 64px;
+    margin: 10px;
+    background: url(${props => linkedin}) center no-repeat;
+`
+    
+const GithubIcon = styled.div`
+    min-height: 64px;
+    min-width: 64px;
+    margin: 10px;
+    background: url(${props => github}) center no-repeat;
+`
+    
+const EmailIcon = styled.div`
+    min-height: 64px;
+    min-width: 64px;
+    margin: 10px;
+    background: url(${props => email}) center no-repeat;
+`
+
+export { CloudRow, CloudItem, TextContainer, Title, TitleLight, Subtitle, PersonalData, Container, ProfilePicture, LabelColumn, DataColumn, Info, TitleSeparator, RowSeparator, TitleInset, TitleRetro, TitleDeep, StrongContainer, StyledLink, StyledButton, LinkedinIcon, GithubIcon, EmailIcon, IconsContainer }

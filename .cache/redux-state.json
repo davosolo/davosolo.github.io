@@ -1,13 +1,19 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "component": "/Users/david/Sites/davosolo.github.io/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
+      "componentChunkName": "page-component---cache-dev-404-page-js",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "522f66a7609826515567658d30162e2f",
         "owner": "internal-data-bridge"
       }
     },
@@ -385,13 +391,15 @@
       "siteMetadata": {
         "title": "David Muñoz"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "/davosolo.github.io",
-      "buildTime": "2017-09-12T19:21:38.881Z",
+      "buildTime": "2017-09-20T02:24:23.065Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b27798f264a0855fd5988b7c3eeebb67",
+        "contentDigest": "d00252b8d7cb3193a680d7f88f7542ed",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -556,6 +564,10 @@
   },
   "pageDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }
