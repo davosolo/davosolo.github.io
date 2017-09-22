@@ -8,6 +8,7 @@ There's still a lot to do though:
 - Improve it's look & feel
 - Add a portfolio
 - Create a contact form
+
 But there is no rush, I'll keep working on it so, stay tuned!
 
 I hope you like it.
