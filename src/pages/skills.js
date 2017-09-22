@@ -5,6 +5,7 @@ import { CloudRow, CloudItem } from './../components/styledContainer'
 
 const SkillsPage = () => (
   <BannerLayout 
+    id = "skills"
     title = "SKILLS" 
     backgroundImage = {SkillsBannerImage}
     attachment = "scroll"

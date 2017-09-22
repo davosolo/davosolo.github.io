@@ -48,13 +48,26 @@ const Title = styled.h1`
     margin: 0;
     display: inline;
     font-family: ${props => props.theme.font};
-    letter-spacing: -8px;
+    letter-spacing: -4px;
 `
 
-const Logo = styled(Link)`
+const Logo = styled.a`
     color: ${props => props.theme.dark};
     font-family: ${props => props.theme.font};
     text-decoration: none;
+`
+
+const StyledHeaderLink = styled.a`
+    color: ${props => props.theme.dark};
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-family: ${props => props.theme.font};
+    text-decoration: none;
+
+    @media only screen and (min-width: 768px) {
+        margin-right: 1rem;
+        font-size: 1.2rem;
+    }
 `
 
 const Burger = styled.img`
@@ -64,4 +77,4 @@ const Burger = styled.img`
     height: 16px:
 `
 
-export { HeaderContainer, Menu, MenuItem, Title, Logo, Burger }
+export { HeaderContainer, Menu, MenuItem, Title, Logo, Burger, StyledHeaderLink }

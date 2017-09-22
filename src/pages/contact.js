@@ -4,7 +4,8 @@ import BannerLayout from './../layouts/banner'
 import { StrongContainer, TextContainer, StyledLink, LinkedinIcon, GithubIcon, EmailIcon, IconsContainer } from './../components/styledContainer'
 
 const ContactPage = () =>
-  <BannerLayout 
+  <BannerLayout
+  id = "contact"
   title = "CONTACT" 
   backgroundImage = { null }
   attachment = "scroll"

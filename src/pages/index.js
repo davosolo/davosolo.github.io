@@ -8,7 +8,7 @@ import Resume from './resume'
 import Skills from './skills'
 
 const IndexPage = () => (
-  <main>
+  <main id="home">
     <Cover 
       title = "FRONT-END DEVELOPER" 
       subtitle = "Muñoz, David" 

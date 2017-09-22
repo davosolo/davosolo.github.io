@@ -6,7 +6,7 @@ import { Title, Subtitle, Container, PersonalData, TextContainer, ProfilePicture
 const path = require('path');
 
 const ResumePage = () => (
-    <section>
+    <section id="resume">
     <BannerLayout 
     title = "RESUME" 
     backgroundImage = {ResumeBannerImage}

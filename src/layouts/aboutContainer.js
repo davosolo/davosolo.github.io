@@ -2,7 +2,7 @@ import React from "react"
 import { Title, Subtitle, TextContainer, PersonalData, Container, ProfilePicture, LabelColumn, DataColumn, Info, TitleSeparator, RowSeparator } from './../components/styledContainer'
 
 const ContainerLayout = props => (
-    <section>
+    <section id="about">
         <Title>
             {props.title}
         </Title>
