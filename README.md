@@ -1,5 +1,5 @@
 # davosolo.github.io
-This is my personal site, I've made it myself using some cool tools like React's SSG [GatsbyJS](https://www.gatsbyjs.org/) and the awesome [Styled Components](https://www.styled-components.com/).
+Welcome to my personal site, I've made it myself using some cool tools like React's SSG [GatsbyJS](https://www.gatsbyjs.org/) and the awesome [Styled Components](https://www.styled-components.com/).
 I'm also trying my best to make it look good considering I'm not a designer.
 
 # TODO
