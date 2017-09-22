@@ -1,6 +1,7 @@
 import React from 'react'
 import Cover from './../layouts/cover'
 import Header from './../layouts/header'
+import Footer from './../layouts/footer'
 import AboutPage from './about'
 import Contact from './contact'
 import Resume from './resume'
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <Resume />
     <Skills />
     <Contact />
+    <Footer />
   </main>
 )
 
