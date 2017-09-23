@@ -394,12 +394,12 @@
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "/davosolo.github.io",
-      "buildTime": "2017-09-20T02:24:23.065Z",
+      "buildTime": "2017-09-22T21:17:36.805Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d00252b8d7cb3193a680d7f88f7542ed",
+        "contentDigest": "9ff90cd62694b9836e839db1fa420765",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
