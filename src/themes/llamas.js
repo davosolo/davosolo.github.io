@@ -9,7 +9,7 @@ const Llamas = {
     light: '#F7FCFF',
     middle: '#A6B0BF',
     dark: '#403B46',
-    font: 'Roboto-Light'
+    font: '"Roboto-Light", sans-serif'
 };
 
 export default Llamas
