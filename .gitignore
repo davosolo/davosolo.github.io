@@ -1,0 +1,8 @@
+node_modules/
+public/
+.cache/
+gulpfile.js
+package-lock.json
+package.json
+.gatsby-context.js
+.DS_Store
