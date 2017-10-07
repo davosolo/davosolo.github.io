@@ -1,13 +1,16 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Welcome
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+<h2>This is my personal website repository</h2>
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+This site was created using React based SSG [Gatsby](https://www.gatsbyjs.org/) and the cool [Styled Components](https://www.gatsbyjs.org/) plugin.
+
+There's still a couple of pending tasks I want to work here:
 ```
-gatsby new gatsby-example-site
+- Make the site mobile friendly.
+- Improve design.
+- Add projects.
 ```
 
-## Deploy
+I hope you like it.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[Whatch it live here](https://davosolo.github.io/)
