@@ -2,7 +2,7 @@
 
 <h2>This is my personal website repository</h2>
 
-This site was created using React based SSG [Gatsby](https://www.gatsbyjs.org/) and the cool [Styled Components](https://www.gatsbyjs.org/) plugin.
+This site was created using React based SSG [Gatsby](https://www.gatsbyjs.org/) and the cool [Styled Components](https://www.styled-components.com) plugin.
 
 There's still a couple of pending tasks I want to work here:
 ```
