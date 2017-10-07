@@ -1,51 +1,71 @@
 [
     {
-        "componentChunkName": "page-component---cache-dev-404-page-js",
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "dev-404-page.json",
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "page-component---src-pages-404-js",
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404.json",
         "path": "/404/"
     },
     {
-        "componentChunkName": "page-component---src-pages-about-js",
+        "componentChunkName": "component---src-pages-about-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "about.json",
         "path": "/about/"
     },
     {
-        "componentChunkName": "page-component---src-pages-contact-js",
+        "componentChunkName": "component---src-pages-contact-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "contact.json",
         "path": "/contact/"
     },
     {
-        "componentChunkName": "page-component---src-pages-index-js",
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "index.json",
         "path": "/"
     },
     {
-        "componentChunkName": "page-component---src-pages-resume-js",
+        "componentChunkName": "component---src-pages-resume-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "resume.json",
         "path": "/resume/"
     },
     {
-        "componentChunkName": "page-component---src-pages-skills-js",
+        "componentChunkName": "component---src-pages-skills-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "skills.json",
         "path": "/skills/"
     },
     {
-        "componentChunkName": "page-component---src-pages-404-js",
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404-html.json",
         "path": "/404.html"
     },
     {
-        "componentChunkName": "page-component---src-pages-examples-about-css-modules-js",
+        "componentChunkName": "component---src-pages-examples-about-css-modules-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "examples-about-css-modules.json",
         "path": "/examples/about-css-modules/"
     },
     {
-        "componentChunkName": "page-component---src-pages-examples-counter-js",
+        "componentChunkName": "component---src-pages-examples-counter-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "examples-counter.json",
         "path": "/examples/counter/"
     }

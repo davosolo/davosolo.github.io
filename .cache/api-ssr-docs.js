@@ -1,5 +1,3 @@
-"use strict";
-
 /**
  * Replace the default server renderer. This is useful for integration with
  * Redux, css-in-js libraries, etc. that need custom setups for server
@@ -32,7 +30,7 @@
  *   replaceBodyHTMLString(inlinedHTML)
  * }
  */
-exports.replaceRenderer = true;
+exports.replaceRenderer = true
 
 /**
  * Called after every page Gatsby server renders while building HTML so you can
@@ -77,5 +75,4 @@ exports.replaceRenderer = true;
  *   ])
  * }
  */
-exports.onRenderBody = true;
-//# sourceMappingURL=api-ssr-docs.js.map
+exports.onRenderBody = true
