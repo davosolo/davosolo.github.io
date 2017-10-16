@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Cover 
       title = "FRONT-END DEVELOPER" 
       subtitle = "Muñoz, David" 
-      text = "Hey... Welcome! In here, you can take a glance of everything that has to do with me and my work so you can have a better idea of what I'm able to do. Or in other words: a showing off."
+      text = "Hey... Welcome! Here, you can take a glance of everything that has to do with me and my work so you can have a better idea of what I'm able to do. Or in other words: showing off."
     />
     <Header />
     <AboutPage />

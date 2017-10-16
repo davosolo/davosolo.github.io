@@ -13,8 +13,8 @@ const AboutPage = () => (
       <Subtitle>
         What I like
       </Subtitle>
-      <p>I enjoy creating stuff, specially if I can use the latest trends of this never ending changing world of software development. Even though I've worked before as a back-end developer, nowadays I'm more into coding the presentation layer of the web applications. Also, I've been playing with hybrid mobile applications frameworks like Ionic and Fuse lately and I find it fascinating.
-        Now... Stepping aside from software, I like running, whatching movies & TV shows, videogames and of course, music. Photographer wannabe.
+      <p>I enjoy creating stuff, especially if I can use the latest trends of this never ending changing world of software development. Even though I've worked before as a back-end developer, nowadays I'm more into coding the presentation layer of the web applications. Also, I've been playing with hybrid mobile applications frameworks like Ionic and Fuse lately and I find it fascinating.
+        Now... Stepping aside from software, I like running, watching movies & TV shows, videogames and of course, music. Photographer wannabe.
       </p>
     </ContainerLayout>
 )
