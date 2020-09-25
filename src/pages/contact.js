@@ -16,7 +16,7 @@ const ContactPage = () =>
         <StyledLink alt="E-mail" href="mailto:davidmzm@gmail.com">
           <EmailIcon />
         </StyledLink>
-        <StyledLink alt="LinkedIn" target="_blank" href="https://www.linkedin.com/in/david-mu%C3%B1oz-mar%C3%ADn-8785815/">
+        <StyledLink alt="LinkedIn" target="_blank" href="https://www.linkedin.com/in/david-munoz-marin/">
           <LinkedinIcon />
         </StyledLink>
         <StyledLink alt="GitHub" target="_blank" href="https://github.com/davosolo">
